@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_button_blue.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_button_blue.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_channel_btton.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_channel_btton.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_button_green.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_button_green.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cmbkb_btn_keyboard_key.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable\\cmbkb_btn_keyboard_key.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_channel_item_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_channel_item_selector.xml"
+    }
+]

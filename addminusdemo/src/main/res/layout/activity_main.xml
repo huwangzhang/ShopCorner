@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.huwang.addminusdemo.MainActivity">
+
+    <com.example.huwang.addminusdemo.NumberAddMinusView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:value="1"
+        app:maxvalue="5"
+        app:minvalue="1"
+        app:btnAddBackgroud="@drawable/btn_add_minus_number_selector"
+        app:btnMinusBackgroud="@drawable/btn_add_minus_number_selector">
+
+    </com.example.huwang.addminusdemo.NumberAddMinusView>
+</LinearLayout>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_shopping.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_shopping.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_cmbkb.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_cmbkb.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_unionpay.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_unionpay.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_done.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_done.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_jingdongpay.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_jingdongpay.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_alipay.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_alipay.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_baidupay.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_baidupay.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_unipay.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_unipay.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_failed.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_failed.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_baidu.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_baidu.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_wepay.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_wepay.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_success.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_success.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_nocard.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_nocard.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pingpp_wechat.png",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pingpp_wechat.png"
+    }
+]

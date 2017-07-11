@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_exit.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\anim\\cmbkb_push_bottom_out.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\anim\\cmbkb_push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\anim\\cmbkb_push_bottom_in.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\anim\\cmbkb_push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_enter.xml",
+        "source": "E:\\AndroidStudioProjects\\ShopCorner\\lib\\pingpp_one\\res\\anim\\dialog_enter.xml"
+    }
+]

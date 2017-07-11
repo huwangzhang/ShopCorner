@@ -1,0 +1,1 @@
+include ':app', ':addminusdemo', ':html5demo', ':sharesdk', ':smsdemo', ':lib:bdwallet_pay_sdk', ':lib:pingpp', ':lib:pingpp_one', ':ninegridview', ':ninegridviewdemo'
