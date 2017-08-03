@@ -96,14 +96,12 @@ public abstract class BaseAdapter<T, V extends BaseViewHolder> extends RecyclerV
 //    }
 
     public void addData(List<T> datas) {
-
         addData(0, datas);
     }
 
     public void addData(int position, List<T> datas) {
 
         if (datas != null && datas.size() > 0) {
-
             mDatas.addAll(datas);
             notifyItemRangeChanged(position, mDatas.size());
         }

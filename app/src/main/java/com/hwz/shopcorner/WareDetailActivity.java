@@ -76,8 +76,6 @@ public class WareDetailActivity extends BaseActivity implements View.OnClickList
         mAppInterfce = new WebAppInterface(this);
         mWebView.addJavascriptInterface(mAppInterfce, "appInterface");
         mWebView.setWebViewClient(new WC());
-
-
     }
 
     private void initToolBar() {
@@ -170,9 +168,7 @@ public class WareDetailActivity extends BaseActivity implements View.OnClickList
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-
                     mWebView.loadUrl("javascript:showDetail(" + mWare.getId() + ")");
-
                 }
             });
         }

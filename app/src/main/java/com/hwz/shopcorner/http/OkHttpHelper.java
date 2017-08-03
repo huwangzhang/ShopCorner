@@ -42,7 +42,7 @@ public class OkHttpHelper {
         mInstance = new OkHttpHelper();
     }
 
-    public OkHttpHelper() {
+    private OkHttpHelper() {
         if (mClient == null) {
             mClient = new OkHttpClient();
         }
@@ -54,7 +54,6 @@ public class OkHttpHelper {
     }
 
     public static OkHttpHelper getInstance() {
-
         return mInstance;
     }
 
@@ -94,7 +93,6 @@ public class OkHttpHelper {
         } else if (methodType == HttpMethodType.GET) {
             url = buildUrlParams(url, params);
             builder.url(url);
-
             builder.get();
         }
 
@@ -110,7 +108,6 @@ public class OkHttpHelper {
         String token = SCApplication.getInstance().getToken();
         if (!TextUtils.isEmpty(token))
             params.put("token", token);
-
 
         StringBuffer sb = new StringBuffer();
         for (Map.Entry<String, Object> entry : params.entrySet()) {

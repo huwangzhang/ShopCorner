@@ -64,7 +64,6 @@ public class MineFragment extends BaseFragment {
 
     @Event(value = R.id.btn_logout)
     private void logout(View view) {
-
         SCApplication.getInstance().clearUser();
         showUser(null);
     }

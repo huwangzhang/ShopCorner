@@ -43,14 +43,10 @@ public class HomeCategoryAdapter extends RecyclerView.Adapter<HomeCategoryAdapte
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int type) {
-
-
         mInflater = LayoutInflater.from(viewGroup.getContext());
         if (type == VIEW_TYPE_R) {
-
             return new ViewHolder(mInflater.inflate(R.layout.template_home_cardview2, viewGroup, false));
         }
-
         return new ViewHolder(mInflater.inflate(R.layout.template_home_cardview, viewGroup, false));
     }
 
@@ -61,7 +57,6 @@ public class HomeCategoryAdapter extends RecyclerView.Adapter<HomeCategoryAdapte
         Picasso.with(mContext).load(category.getCpOne().getImgUrl()).into(viewHolder.imageViewBig);
         Picasso.with(mContext).load(category.getCpTwo().getImgUrl()).into(viewHolder.imageViewSmallTop);
         Picasso.with(mContext).load(category.getCpThree().getImgUrl()).into(viewHolder.imageViewSmallBottom);
-
     }
 
     @Override
@@ -75,14 +70,11 @@ public class HomeCategoryAdapter extends RecyclerView.Adapter<HomeCategoryAdapte
 
         if (position % 2 == 0) {
             return VIEW_TYPE_R;
-        } else return VIEW_TYPE_L;
-
-
+        } else
+            return VIEW_TYPE_L;
     }
 
     class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-
-
         TextView textTitle;
         ImageView imageViewBig;
         ImageView imageViewSmallTop;
@@ -90,7 +82,6 @@ public class HomeCategoryAdapter extends RecyclerView.Adapter<HomeCategoryAdapte
 
         public ViewHolder(View itemView) {
             super(itemView);
-
 
             textTitle = (TextView) itemView.findViewById(R.id.text_title);
             imageViewBig = (ImageView) itemView.findViewById(R.id.imgview_big);
@@ -106,7 +97,7 @@ public class HomeCategoryAdapter extends RecyclerView.Adapter<HomeCategoryAdapte
         public void onClick(View v) {
             HomeCampaign homeCampaign = mDatas.get(getLayoutPosition());
             if (mCategoryListener != null) {
-                    anim(v);
+                anim(v);
             }
         }
 

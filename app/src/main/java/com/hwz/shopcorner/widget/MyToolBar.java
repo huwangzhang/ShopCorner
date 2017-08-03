@@ -17,12 +17,12 @@ import android.widget.TextView;
 import com.hwz.shopcorner.R;
 
 /**
+ * 组合系统空间
  * Created by huwang on 2017/6/19.
  */
 
 public class MyToolBar extends Toolbar {
     private LayoutInflater mInflater;
-
     private View mView;
     private TextView mTextTitle;
     private EditText mSearchView;
@@ -87,7 +87,6 @@ public class MyToolBar extends Toolbar {
 
 
     public void setRightButtonOnClickListener(OnClickListener li) {
-
         mRightButton.setOnClickListener(li);
     }
 

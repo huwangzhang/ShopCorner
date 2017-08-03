@@ -16,7 +16,6 @@ import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
-import com.google.gson.Gson;
 import com.hwz.shopcorner.R;
 import com.hwz.shopcorner.WareListActivity;
 import com.hwz.shopcorner.adapter.DividerItemDecortion;
@@ -49,8 +48,6 @@ public class HomeFragment extends Fragment {
 
     private HomeCategoryAdapter mAdatper;
 
-    private Gson mGson = new Gson();
-
     private List<Banner> mBanner;
 
     private OkHttpHelper mOkHttpHelper = OkHttpHelper.getInstance();
@@ -61,10 +58,9 @@ public class HomeFragment extends Fragment {
         View view = View.inflate(getActivity(), R.layout.fragment_home, null);
         mSliderShow = (SliderLayout) view.findViewById(R.id.slider);
         mIndicator = (PagerIndicator) view.findViewById(R.id.custom_indicator);
-//        initSlideView();
 
         requestImages();
-//        initSlideView();
+
         initRecyclerView(view);
         return view;
     }
@@ -126,12 +122,11 @@ public class HomeFragment extends Fragment {
     }
 
     private void initData(List<HomeCampaign> homeCampaigns) {
-        mAdatper = new HomeCategoryAdapter(homeCampaigns,getContext());
+        mAdatper = new HomeCategoryAdapter(homeCampaigns, getContext());
 
         mAdatper.setCategoryListener(new HomeCategoryAdapter.onHomeCategoryListener() {
             @Override
             public void onClick(View view, Campaign campaign) {
-//                Toast.makeText(getContext(),"title="+campaign.getTitle(),Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(getActivity(), WareListActivity.class);
                 intent.putExtra(Constants.COMPAINGAIN_ID, campaign.getId());
                 startActivity(intent);
@@ -155,7 +150,6 @@ public class HomeFragment extends Fragment {
                 textSliderView.description(banner.getName());
                 textSliderView.setScaleType(BaseSliderView.ScaleType.Fit);
                 mSliderShow.addSlider(textSliderView);
-
             }
         } else {
             TextSliderView textSliderView = new TextSliderView(this.getActivity());

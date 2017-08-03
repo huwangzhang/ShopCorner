@@ -23,19 +23,16 @@ public class JSONUtils {
 
 
     public static <T> T fromJson(String json, Class<T> clz) {
-
         return gson.fromJson(json, clz);
     }
 
 
     public static <T> T fromJson(String json, Type type) {
-
         return gson.fromJson(json, type);
     }
 
 
     public static String toJSON(Object object) {
-
         return gson.toJson(object);
     }
 

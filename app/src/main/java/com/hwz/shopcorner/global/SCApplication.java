@@ -73,7 +73,6 @@ public class SCApplication extends MobApplication {
     }
 
     public void jumpToTargetActivity(Context context) {
-
         context.startActivity(intent);
         this.intent = null;
     }
